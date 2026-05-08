@@ -1,0 +1,1 @@
+{"enable_concurrency":false,"logger_level":"INFO","batch_cols":256,"enable_random_phase":true,"enable_mixed_precision":false,"device_id":2}

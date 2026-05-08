@@ -1,0 +1,1 @@
+{"schema_version":1,"c":3.0E+8,"lambda":0.03,"fc":1.0E+10,"B":1.0E+8,"fs":1.5E+8,"PRF":2000,"Tp":1.5E-5,"va":450,"H":3000,"R0":10000,"Ba":800,"Ta":0.59259259259259267,"N_az":4000,"N_rg":4000,"monostatic":true,"layout":"col_major","scatter_phase_seed":2.0241129E+7,"N_trans":1}

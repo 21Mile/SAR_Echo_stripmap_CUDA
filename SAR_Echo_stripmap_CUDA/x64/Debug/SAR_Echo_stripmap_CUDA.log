@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file echo_engine.cu...
+  
+  E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA>"D:\Program Files\CUDA\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64" -x cu   -I"D:\Program Files\CUDA\include" -I"D:\Program Files\CUDA\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA\x64\Debug\echo_engine.cu.obj "E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA\echo_engine.cu" 
+  echo_engine.cu
+  tmpxft_00001d24_00000000-7_echo_engine.cudafe1.cpp
+  config.cpp
+  echo_app.cpp
+  main.cpp
+  readers.cpp
+  正在生成代码...
+    正在创建库 E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\x64\Debug\SAR_Echo_stripmap_CUDA.lib 和对象 E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\x64\Debug\SAR_Echo_stripmap_CUDA.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  SAR_Echo_stripmap_CUDA.vcxproj -> E:\Projcet_Cpp\SAR_Echo_stripmap_CUDA_release\SAR_Echo_stripmap_CUDA_release\x64\Debug\SAR_Echo_stripmap_CUDA.exe
