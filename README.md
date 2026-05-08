@@ -65,12 +65,14 @@ output.png（SAR 图像）
 #### 2.1 频域回波计算
 
 仿真在**距离频域**中进行（即对每个方位脉冲，计算其频域回波 $S(f_r)$），而非在时域逐采样点计算。对于第 $a$ 个方位脉冲，其频域回波为所有散射点贡献的叠加：
+
 $$
 S(f_r, t_a) = \sum_{k} \sigma_k \cdot W(f_r) \cdot \exp!\left(-j 2\pi \left[ f_r \cdot \Delta\tau_k + f_c \cdot \tau_k \right]\right)
 $$
+
 其中：
 
-- $ \sigma_k = \sigma_{k,r} + j\sigma_{k,i} $：第 $k$ 个散射点的复散射系数
+- $ \sigma_k = \sigma_{k,r} + j\sigma_{k,i}$：第 $k$ 个散射点的复散射系数
 - $W(f_r)$：发射波形的频域表达（LFM 或其他调制波形）
 - $f_c$：载频，$f_r$：距离频率偏移量
 - $\tau_k = (R_{tx,k} + R_{rx,k}) / c$：发射→目标→接收的总传播时延
